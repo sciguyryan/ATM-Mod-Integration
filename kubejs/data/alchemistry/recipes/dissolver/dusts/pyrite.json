@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/hematite"
+            "tag": "forge:dusts/pyrite"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 5,
+          "count": 3,
           "ingredient": {
-            "tag": "forge:dusts/hematite"
+            "tag": "forge:dusts/pyrite"
           }
         },
         "output": {
@@ -26,12 +26,12 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 32,
+                  "count": 16,
                   "item": "chemlib:iron"
                 },
                 {
-                  "count": 48,
-                  "item": "chemlib:oxygen"
+                  "count": 32,
+                  "item": "chemlib:sulfur"
                 }
               ]
             }
