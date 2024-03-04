@@ -26,11 +26,11 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 1,
+                  "count": 16,
                   "item": "chemlib:zinc"
                 },
                 {
-                  "count": 3,
+                  "count": 48,
                   "item": "chemlib:copper"
                 }
               ]

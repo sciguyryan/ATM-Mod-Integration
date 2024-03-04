@@ -16,13 +16,19 @@
         "group": "alchemistry:combiner",
         "input": [
           {
-            "count": 1,
+            "count": 16,
             "ingredient": {
               "item": "chemlib:silicon"
             }
           },
           {
-            "count": 5,
+            "count": 64,
+            "ingredient": {
+              "item": "chemlib:iron_disulfide"
+            }
+          },
+          {
+            "count": 16,
             "ingredient": {
               "item": "chemlib:iron_disulfide"
             }

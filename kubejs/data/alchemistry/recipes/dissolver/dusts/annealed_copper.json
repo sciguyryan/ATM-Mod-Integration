@@ -15,7 +15,7 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 20,
+          "count": 1,
           "ingredient": {
             "tag": "forge:dusts/annealed_copper"
           }

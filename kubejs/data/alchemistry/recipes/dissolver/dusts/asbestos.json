@@ -26,11 +26,11 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 3,
+                  "count": 48,
                   "item": "chemlib:magnesium"
                 },
                 {
-                  "count": 2,
+                  "count": 32,
                   "item": "chemlib:silicon"
                 },
                 {

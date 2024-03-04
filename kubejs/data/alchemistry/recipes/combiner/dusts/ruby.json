@@ -16,13 +16,13 @@
         "group": "alchemistry:combiner",
         "input": [
           {
-            "count": 1,
+            "count": 16,
             "ingredient": {
               "item": "chemlib:chromium"
             }
           },
           {
-            "count": 2,
+            "count": 32,
             "ingredient": {
               "item": "chemlib:aluminum"
             }
@@ -35,7 +35,7 @@
           }
         ],
         "result": {
-          "count": 6,
+          "count": 1,
           "item": "gtceu:ruby_dust"
         }
       }

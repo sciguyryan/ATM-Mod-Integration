@@ -26,11 +26,11 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 1,
+                  "count": 16,
                   "item": "chemlib:chromium"
                 },
                 {
-                  "count": 2,
+                  "count": 32,
                   "item": "chemlib:aluminum"
                 },
                 {
