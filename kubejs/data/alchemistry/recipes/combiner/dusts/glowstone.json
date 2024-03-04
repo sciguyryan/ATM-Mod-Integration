@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/ruby"
+            "tag": "forge:dusts/redstone"
           }
         }
       ],
@@ -18,31 +18,18 @@
           {
             "count": 1,
             "ingredient": {
-              "item": "chemlib:silicon"
+              "tag": "forge:dusts/redstone"
             }
           },
           {
-            "count": 5,
+            "count": 16,
             "ingredient": {
-              "item": "chemlib:iron_disulfide"
-            }
-          },
-          {
-            "count": 1,
-            "ingredient": {
-              "tag": "forge:dusts/ruby"
-            }
-          },
-          {
-            "count": 48,
-            "ingredient": {
-              "item": "chemlib:mercury"
+              "item": "chemlib:gold"
             }
           }
         ],
         "result": {
-          "count": 10,
-          "item": "minecraft:redstone"
+          "item": "minecraft:glowstone_dust"
         }
       }
     }

@@ -1,0 +1,69 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/glowstone"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 1,
+          "ingredient": {
+            "tag": "forge:storage_blocks/glowstone"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 100.0,
+              "results": [
+                {
+                  "count": 4,
+                  "item": "chemlib:silicon"
+                },
+                {
+                  "count": 20,
+                  "item": "chemlib:iron_disulfide"
+                },
+                {
+                  "count": 4,
+                  "item": "chemlib:chromium"
+                },
+                {
+                  "count": 4,
+                  "item": "chemlib:aluminum_oxide"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:mercury"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:mercury"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:mercury"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:gold"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": false
+        }
+      }
+    }
+  ]
+}
