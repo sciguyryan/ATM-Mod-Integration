@@ -1,0 +1,17 @@
+{
+  "recipe": {
+    "type": "alchemistry:combiner",
+    "group": "alchemistry:combiner",
+    "input": [
+      {
+        "count": 16,
+        "ingredient": {
+          "item": "chemlib:tin_oxide"
+        }
+      }
+    ],
+    "result": {
+      "item": "chemlib:tin_oxide_dust"
+    }
+  }
+}

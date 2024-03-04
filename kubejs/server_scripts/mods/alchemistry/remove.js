@@ -13,6 +13,12 @@ ServerEvents.recipes((event) => {
     { id: "alchemistry:combiner/iron_disulfide_dust" },
     { id: "alchemistry:compactor/iron_disulfide_dust" },
     { id: "alchemistry:dissolver/iron_disulfide_dust" },
+    { id: "alchemistry:combiner/calcium_carbonate_dust" },
+    { id: "alchemistry:compactor/calcium_carbonate_dust" },
+    { id: "alchemistry:dissolver/calcium_carbonate_dust" },
+    { id: "alchemistry:combiner/tin_oxide_dust" },
+    { id: "alchemistry:compactor/tin_oxide_dust" },
+    { id: "alchemistry:dissolver/tin_oxide_dust" },
   ];
 
   removals.forEach((removal) => {
