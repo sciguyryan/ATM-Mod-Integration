@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/redstone"
+            "tag": "forge:dusts/ruby"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 10,
+          "count": 6,
           "ingredient": {
-            "tag": "forge:dusts/redstone"
+            "tag": "forge:dusts/ruby"
           }
         },
         "output": {
@@ -27,23 +27,15 @@
               "results": [
                 {
                   "count": 1,
-                  "item": "chemlib:silicon"
-                },
-                {
-                  "count": 5,
-                  "item": "chemlib:iron_disulfide"
-                },
-                {
-                  "count": 1,
                   "item": "chemlib:chromium"
                 },
                 {
-                  "count": 1,
-                  "item": "chemlib:aluminum_oxide"
+                  "count": 2,
+                  "item": "chemlib:aluminum"
                 },
                 {
                   "count": 48,
-                  "item": "chemlib:mercury"
+                  "item": "chemlib:oxygen"
                 }
               ]
             }

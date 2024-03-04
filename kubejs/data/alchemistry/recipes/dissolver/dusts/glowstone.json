@@ -26,6 +26,7 @@
               "probability": 100.0,
               "results": [
                 {
+                  "count": 1,
                   "item": "chemlib:silicon"
                 },
                 {
@@ -33,9 +34,11 @@
                   "item": "chemlib:iron_disulfide"
                 },
                 {
+                  "count": 1,
                   "item": "chemlib:chromium"
                 },
                 {
+                  "count": 1,
                   "item": "chemlib:aluminum_oxide"
                 },
                 {

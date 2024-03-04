@@ -1,0 +1,44 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:dusts/ruby"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:combiner",
+        "group": "alchemistry:combiner",
+        "input": [
+          {
+            "count": 1,
+            "ingredient": {
+              "item": "chemlib:chromium"
+            }
+          },
+          {
+            "count": 2,
+            "ingredient": {
+              "item": "chemlib:aluminum"
+            }
+          },
+          {
+            "count": 48,
+            "ingredient": {
+              "item": "chemlib:oxygen"
+            }
+          }
+        ],
+        "result": {
+          "count": 6,
+          "item": "gtceu:ruby_dust"
+        }
+      }
+    }
+  ]
+}
