@@ -1,0 +1,54 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:dusts/redstone"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 10,
+          "ingredient": {
+            "tag": "forge:dusts/redstone"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 100.0,
+              "results": [
+                {
+                  "item": "chemlib:silicon"
+                },
+                {
+                  "count": 5,
+                  "item": "chemlib:iron_disulfide"
+                },
+                {
+                  "item": "chemlib:chromium"
+                },
+                {
+                  "item": "chemlib:aluminum_oxide"
+                },
+                {
+                  "count": 48,
+                  "item": "chemlib:mercury"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": false
+        }
+      }
+    }
+  ]
+}
