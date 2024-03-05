@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/coal"
+            "tag": "forge:dusts/diamond"
           }
         }
       ],
@@ -17,7 +17,7 @@
         "input": {
           "count": 1,
           "ingredient": {
-            "tag": "forge:dusts/coal"
+            "tag": "forge:dusts/diamond"
           }
         },
         "output": {
@@ -26,7 +26,19 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 16,
+                  "count": 64,
+                  "item": "chemlib:graphite"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:graphite"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:graphite"
+                },
+                {
+                  "count": 64,
                   "item": "chemlib:graphite"
                 }
               ]

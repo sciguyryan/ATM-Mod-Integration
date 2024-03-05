@@ -23,6 +23,14 @@ ServerEvents.recipes((event) => {
     { id: "alchemistry:compactor/mercury_sulfide_dust", mod: "alchemistry" },
     { id: "alchemistry:dissolver/mercury_sulfide_dust" },
     { id: "alchemistry:combiner/mercury_sulfide_dust" },
+    { id: "alchemistry:dissolver/diamond", mod: "alchemistry" },
+    { id: "alchemistry:combiner/graphite_dust" },
+    { id: "alchemistry:compactor/graphite_dust" },
+    { id: "alchemistry:dissolver/graphite_dust" },
+    { id: "alchemistry:compactor/charcoal" },
+    { id: "alchemistry:dissolver/charcoal", mod: "alchemistry" },
+    { id: "alchemistry:compactor/coal" },
+    { id: "alchemistry:dissolver/coal", mod: "alchemistry" },
   ];
 
   removals.forEach((removal) => {

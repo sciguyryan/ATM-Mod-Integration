@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/coal"
+            "tag": "forge:dusts/cooperite"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 6,
           "ingredient": {
-            "tag": "forge:dusts/coal"
+            "tag": "forge:dusts/cooperite"
           }
         },
         "output": {
@@ -26,8 +26,20 @@
               "probability": 100.0,
               "results": [
                 {
+                  "count": 48,
+                  "item": "chemlib:platinum"
+                },
+                {
                   "count": 16,
-                  "item": "chemlib:graphite"
+                  "item": "chemlib:nickel"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:sulfur"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:palladium"
                 }
               ]
             }

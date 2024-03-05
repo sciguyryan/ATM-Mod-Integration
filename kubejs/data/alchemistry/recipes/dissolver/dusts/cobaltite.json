@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/coal"
+            "tag": "forge:dusts/cobaltite"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 3,
           "ingredient": {
-            "tag": "forge:dusts/coal"
+            "tag": "forge:dusts/cobaltite"
           }
         },
         "output": {
@@ -27,7 +27,15 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:graphite"
+                  "item": "chemlib:cobalt"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:arsenic"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:sulfur"
                 }
               ]
             }
