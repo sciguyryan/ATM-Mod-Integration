@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/calcite"
+            "tag": "forge:dusts/cinnabar"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 2,
           "ingredient": {
-            "tag": "forge:dusts/calcite"
+            "tag": "forge:dusts/cinnabar"
           }
         },
         "output": {
@@ -27,7 +27,11 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:calcium_carbonate"
+                  "item": "chemlib:sulfur"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:mercury"
                 }
               ]
             }

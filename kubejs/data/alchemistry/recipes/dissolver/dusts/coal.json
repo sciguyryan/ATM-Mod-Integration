@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/calcite"
+            "tag": "forge:dusts/coal"
           }
         }
       ],
@@ -17,7 +17,7 @@
         "input": {
           "count": 1,
           "ingredient": {
-            "tag": "forge:dusts/calcite"
+            "tag": "forge:dusts/coal"
           }
         },
         "output": {
@@ -26,8 +26,8 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:calcium_carbonate"
+                  "count": 32,
+                  "item": "chemlib:carbon"
                 }
               ]
             }

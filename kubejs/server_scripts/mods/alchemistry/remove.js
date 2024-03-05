@@ -19,6 +19,10 @@ ServerEvents.recipes((event) => {
     { id: "alchemistry:combiner/tin_oxide_dust" },
     { id: "alchemistry:compactor/tin_oxide_dust" },
     { id: "alchemistry:dissolver/tin_oxide_dust" },
+    { id: "alchemistry:dissolver/mercury_sulfide_dust" },
+    { id: "alchemistry:compactor/mercury_sulfide_dust", mod: "alchemistry" },
+    { id: "alchemistry:dissolver/mercury_sulfide_dust" },
+    { id: "alchemistry:combiner/mercury_sulfide_dust" },
   ];
 
   removals.forEach((removal) => {
