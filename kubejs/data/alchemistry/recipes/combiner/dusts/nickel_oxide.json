@@ -1,0 +1,17 @@
+{
+  "recipe": {
+    "type": "alchemistry:combiner",
+    "group": "alchemistry:combiner",
+    "input": [
+      {
+        "count": 16,
+        "ingredient": {
+          "item": "chemlib:nickel_oxide"
+        }
+      }
+    ],
+    "result": {
+      "item": "chemlib:nickel_oxide_dust"
+    }
+  }
+}

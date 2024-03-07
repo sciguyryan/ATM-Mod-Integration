@@ -31,6 +31,12 @@ ServerEvents.recipes((event) => {
     { id: "alchemistry:dissolver/charcoal", mod: "alchemistry" },
     { id: "alchemistry:compactor/coal" },
     { id: "alchemistry:dissolver/coal", mod: "alchemistry" },
+    { id: "alchemistry:combiner/lead_sulfide_dust" },
+    { id: "alchemistry:compactor/lead_sulfide_dust" },
+    { id: "alchemistry:dissolver/lead_sulfide_dust" },
+    { id: "alchemistry:combiner/nickel_oxide_dust" },
+    { id: "alchemistry:compactor/nickel_oxide_dust" },
+    { id: "alchemistry:dissolver/nickel_oxide_dust" },
   ];
 
   removals.forEach((removal) => {
