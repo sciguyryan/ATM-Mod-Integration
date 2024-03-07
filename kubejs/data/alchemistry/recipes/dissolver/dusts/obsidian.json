@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:dusts/obsidian"
           }
         }
       ],
@@ -15,40 +15,37 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 8,
           "ingredient": {
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:dusts/obsidian"
           }
         },
         "output": {
           "groups": [
             {
-              "probability": 1.0,
+              "probability": 100.0,
               "results": [
                 {
+                  "count": 16,
+                  "item": "chemlib:magnesium"
+                },
+                {
+                  "count": 16,
                   "item": "chemlib:iron"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
+                },
                 {
-                  "item": "chemlib:aluminum"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
+                  "count": 32,
+                  "item": "chemlib:silicon"
+                },
                 {
-                  "item": "chemlib:chromium"
+                  "count": 64,
+                  "item": "chemlib:oxygen"
                 }
               ]
             }
           ],
           "rolls": 1,
-          "weighted": true
+          "weighted": false
         }
       }
     }

@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:dusts/rose_gold"
           }
         }
       ],
@@ -15,40 +15,29 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 5,
           "ingredient": {
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:dusts/rose_gold"
           }
         },
         "output": {
           "groups": [
             {
-              "probability": 1.0,
+              "probability": 100.0,
               "results": [
                 {
-                  "item": "chemlib:iron"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
+                  "count": 16,
+                  "item": "chemlib:copper"
+                },
                 {
-                  "item": "chemlib:aluminum"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
-                {
-                  "item": "chemlib:chromium"
+                  "count": 64,
+                  "item": "chemlib:gold"
                 }
               ]
             }
           ],
           "rolls": 1,
-          "weighted": true
+          "weighted": false
         }
       }
     }

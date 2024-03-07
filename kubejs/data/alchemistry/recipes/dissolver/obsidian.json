@@ -1,0 +1,37 @@
+{
+  "type": "alchemistry:dissolver",
+  "group": "alchemistry:dissolver",
+  "input": {
+    "count": 8,
+    "ingredient": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "count": 16,
+            "item": "chemlib:magnesium"
+          },
+          {
+            "count": 16,
+            "item": "chemlib:iron"
+          },
+          {
+            "count": 32,
+            "item": "chemlib:silicon"
+          },
+          {
+            "count": 64,
+            "item": "chemlib:oxygen"
+          }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
+}

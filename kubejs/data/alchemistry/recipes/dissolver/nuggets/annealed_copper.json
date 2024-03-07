@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:nuggets/annealed_copper"
           }
         }
       ],
@@ -17,7 +17,7 @@
         "input": {
           "count": 1,
           "ingredient": {
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:nuggets/annealed_copper"
           }
         },
         "output": {
@@ -26,23 +26,7 @@
               "probability": 1.0,
               "results": [
                 {
-                  "item": "chemlib:iron"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
-                {
-                  "item": "chemlib:aluminum"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
-                {
-                  "item": "chemlib:chromium"
+                  "item": "chemlib:copper"
                 }
               ]
             }

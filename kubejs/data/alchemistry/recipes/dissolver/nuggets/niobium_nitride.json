@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:nuggets/niobium_nitride"
           }
         }
       ],
@@ -17,7 +17,7 @@
         "input": {
           "count": 1,
           "ingredient": {
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:nuggets/niobium_nitride"
           }
         },
         "output": {
@@ -26,7 +26,7 @@
               "probability": 1.0,
               "results": [
                 {
-                  "item": "chemlib:iron"
+                  "item": "chemlib:niobium"
                 }
               ]
             },
@@ -34,15 +34,7 @@
               "probability": 1.0,
               "results": [
                 {
-                  "item": "chemlib:aluminum"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
-                {
-                  "item": "chemlib:chromium"
+                  "item": "chemlib:nitrogen"
                 }
               ]
             }

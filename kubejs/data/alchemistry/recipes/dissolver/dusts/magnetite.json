@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:dusts/magnetite"
           }
         }
       ],
@@ -15,40 +15,29 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 7,
           "ingredient": {
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:dusts/magnetite"
           }
         },
         "output": {
           "groups": [
             {
-              "probability": 1.0,
+              "probability": 100.0,
               "results": [
                 {
+                  "count": 48,
                   "item": "chemlib:iron"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
+                },
                 {
-                  "item": "chemlib:aluminum"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
-                {
-                  "item": "chemlib:chromium"
+                  "count": 64,
+                  "item": "chemlib:oxygen"
                 }
               ]
             }
           ],
           "rolls": 1,
-          "weighted": true
+          "weighted": false
         }
       }
     }

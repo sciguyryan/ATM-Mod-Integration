@@ -1,43 +1,43 @@
 ServerEvents.recipes((event) => {
   event.custom({
-    type: "alchemistry:compactor",
-    group: "alchemistry:compactor",
+    type: 'alchemistry:compactor',
+    group: 'alchemistry:compactor',
     input: {
       count: 16,
       ingredient: {
-        item: "chemlib:graphite",
+        item: 'chemlib:graphite',
       },
     },
     result: {
-      item: "minecraft:charcoal",
+      item: 'minecraft:charcoal',
     },
   });
 
   event.custom({
-    type: "alchemistry:compactor",
-    group: "alchemistry:compactor",
+    type: 'alchemistry:compactor',
+    group: 'alchemistry:compactor',
     input: {
       count: 16,
       ingredient: {
-        item: "chemlib:graphite",
+        item: 'chemlib:graphite',
       },
     },
     result: {
-      item: "minecraft:coal",
+      item: 'minecraft:coal',
     },
   });
 
   event.custom({
-    type: "alchemistry:compactor",
-    group: "alchemistry:compactor",
+    type: 'alchemistry:compactor',
+    group: 'alchemistry:compactor',
     input: {
       count: 16,
       ingredient: {
-        item: "chemlib:mercury_sulfide",
+        item: 'chemlib:mercury_sulfide',
       },
     },
     result: {
-      item: "chemlib:mercury_sulfide_dust",
+      item: 'chemlib:mercury_sulfide_dust',
     },
   });
 });

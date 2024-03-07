@@ -1,11 +1,11 @@
 ServerEvents.recipes((event) => {
   event.custom({
-    type: "alchemistry:dissolver",
-    group: "alchemistry:dissolver",
+    type: 'alchemistry:dissolver',
+    group: 'alchemistry:dissolver',
     input: {
       count: 1,
       ingredient: {
-        tag: "forge:gems/charcoal",
+        tag: 'forge:gems/charcoal',
       },
     },
     output: {
@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
           results: [
             {
               count: 16,
-              item: "chemlib:graphite",
+              item: 'chemlib:graphite',
             },
           ],
         },
@@ -26,12 +26,12 @@ ServerEvents.recipes((event) => {
   });
 
   event.custom({
-    type: "alchemistry:dissolver",
-    group: "alchemistry:dissolver",
+    type: 'alchemistry:dissolver',
+    group: 'alchemistry:dissolver',
     input: {
       count: 1,
       ingredient: {
-        tag: "forge:gems/coal",
+        tag: 'forge:gems/coal',
       },
     },
     output: {
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
           results: [
             {
               count: 16,
-              item: "chemlib:graphite",
+              item: 'chemlib:graphite',
             },
           ],
         },
@@ -52,12 +52,12 @@ ServerEvents.recipes((event) => {
   });
 
   event.custom({
-    type: "alchemistry:dissolver",
-    group: "alchemistry:dissolver",
+    type: 'alchemistry:dissolver',
+    group: 'alchemistry:dissolver',
     input: {
       count: 1,
       ingredient: {
-        tag: "forge:gems/diamond",
+        tag: 'forge:gems/diamond',
       },
     },
     output: {
@@ -67,19 +67,19 @@ ServerEvents.recipes((event) => {
           results: [
             {
               count: 64,
-              item: "chemlib:graphite",
+              item: 'chemlib:graphite',
             },
             {
               count: 64,
-              item: "chemlib:graphite",
+              item: 'chemlib:graphite',
             },
             {
               count: 64,
-              item: "chemlib:graphite",
+              item: 'chemlib:graphite',
             },
             {
               count: 64,
-              item: "chemlib:graphite",
+              item: 'chemlib:graphite',
             },
           ],
         },

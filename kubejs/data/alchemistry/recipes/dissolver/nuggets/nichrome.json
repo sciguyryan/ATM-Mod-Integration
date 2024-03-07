@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:nuggets/nichrome"
           }
         }
       ],
@@ -17,24 +17,16 @@
         "input": {
           "count": 1,
           "ingredient": {
-            "tag": "forge:nuggets/kanthal"
+            "tag": "forge:nuggets/nichrome"
           }
         },
         "output": {
           "groups": [
             {
-              "probability": 1.0,
+              "probability": 4.0,
               "results": [
                 {
-                  "item": "chemlib:iron"
-                }
-              ]
-            },
-            {
-              "probability": 1.0,
-              "results": [
-                {
-                  "item": "chemlib:aluminum"
+                  "item": "chemlib:nickel"
                 }
               ]
             },
