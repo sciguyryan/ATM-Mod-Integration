@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:storage_blocks/electrum"
+            "tag": "forge:dusts/lazurite"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 2,
+          "count": 14,
           "ingredient": {
-            "tag": "forge:storage_blocks/electrum"
+            "tag": "forge:dusts/lazurite"
           }
         },
         "output": {
@@ -26,17 +26,25 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:gold"
+                  "count": 48,
+                  "item": "chemlib:aluminum"
                 },
                 {
-                  "count": 16,
-                  "item": "chemlib:silver"
+                  "count": 48,
+                  "item": "chemlib:silicon"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:calcium"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:sodium"
                 }
               ]
             }
           ],
-          "rolls": 9,
+          "rolls": 1,
           "weighted": false
         }
       }

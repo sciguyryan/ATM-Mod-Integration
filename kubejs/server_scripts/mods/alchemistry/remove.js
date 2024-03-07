@@ -37,6 +37,12 @@ ServerEvents.recipes((event) => {
     { id: "alchemistry:combiner/nickel_oxide_dust" },
     { id: "alchemistry:compactor/nickel_oxide_dust" },
     { id: "alchemistry:dissolver/nickel_oxide_dust" },
+    { id: "alchemistry:combiner/magnesium_carbonate_dust" },
+    { id: "alchemistry:compactor/magnesium_carbonate_dust" },
+    { id: "alchemistry:dissolver/magnesium_carbonate_dust" },
+
+    // These cause calculation issues that are just better avoided.
+    { id: /alchemistry:dissolver\/storage_blocks*/ },
   ];
 
   removals.forEach((removal) => {

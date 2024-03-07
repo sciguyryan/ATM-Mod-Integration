@@ -11,4 +11,5 @@ ServerEvents.tags("item", (event) => {
   event.add("forge:dusts/galena", "chemlib:lead_sulfide_dust");
   event.add("forge:dusts/garnierite", "chemlib:nickel_oxide_dust");
   event.add("forge:dusts/green_sapphire", "chemlib:aluminum_oxide_dust");
+  event.add("forge:dusts/magnesite", "chemlib:magnesium_carbonate_dust");
 });
