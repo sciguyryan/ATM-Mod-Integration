@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:nuggets/bronze"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 1,
+          "ingredient": {
+            "tag": "forge:nuggets/bronze"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 1.0,
+              "results": [
+                {
+                  "item": "chemlib:tin"
+                }
+              ]
+            },
+            {
+              "probability": 3.0,
+              "results": [
+                {
+                  "item": "chemlib:copper"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": true
+        }
+      }
+    }
+  ]
+}
