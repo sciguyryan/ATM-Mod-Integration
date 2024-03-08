@@ -4,7 +4,7 @@
   "input": {
     "count": 1,
     "ingredient": {
-      "item": "chemlib:tin_oxide_dust"
+      "item": "chemlib:manganese_oxide_dust"
     }
   },
   "output": {
@@ -14,7 +14,7 @@
         "results": [
           {
             "count": 16,
-            "item": "chemlib:tin_oxide"
+            "item": "chemlib:manganese_oxide"
           }
         ]
       }

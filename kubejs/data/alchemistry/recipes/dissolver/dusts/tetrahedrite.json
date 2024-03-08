@@ -1,0 +1,53 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:dusts/tetrahedrite"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 8,
+          "ingredient": {
+            "tag": "forge:dusts/tetrahedrite"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 100.0,
+              "results": [
+                {
+                  "count": 48,
+                  "item": "chemlib:copper"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:antimony"
+                },
+                {
+                  "count": 48,
+                  "item": "chemlib:sulfur"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:iron"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": false
+        }
+      }
+    }
+  ]
+}
