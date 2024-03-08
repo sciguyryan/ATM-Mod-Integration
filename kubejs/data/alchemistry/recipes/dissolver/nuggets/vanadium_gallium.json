@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:nuggets/vanadium_gallium"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 1,
+          "ingredient": {
+            "tag": "forge:nuggets/vanadium_gallium"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 3.0,
+              "results": [
+                {
+                  "item": "chemlib:vanadium"
+                }
+              ]
+            },
+            {
+              "probability": 1.0,
+              "results": [
+                {
+                  "item": "chemlib:gallium"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": true
+        }
+      }
+    }
+  ]
+}

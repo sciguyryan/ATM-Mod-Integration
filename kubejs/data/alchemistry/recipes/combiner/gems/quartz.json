@@ -1,0 +1,22 @@
+{
+  "type": "alchemistry:combiner",
+  "group": "alchemistry:combiner",
+  "input": [
+    {
+      "count": 16,
+      "ingredient": {
+        "item": "chemlib:silicon"
+      }
+    },
+    {
+      "count": 32,
+      "ingredient": {
+        "item": "chemlib:oxygen"
+      }
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:quartz"
+  }
+}

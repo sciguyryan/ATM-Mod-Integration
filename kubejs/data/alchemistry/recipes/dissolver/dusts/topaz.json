@@ -1,0 +1,53 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:dusts/topaz"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 6,
+          "ingredient": {
+            "tag": "forge:dusts/topaz"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 100.0,
+              "results": [
+                {
+                  "count": 32,
+                  "item": "chemlib:aluminum"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:silicon"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:fluorine"
+                },
+                {
+                  "count": 32,
+                  "item": "chemlib:oxygen"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": false
+        }
+      }
+    }
+  ]
+}

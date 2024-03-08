@@ -1,0 +1,61 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:dusts/uvarovite"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 20,
+          "ingredient": {
+            "tag": "forge:dusts/uvarovite"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 100.0,
+              "results": [
+                {
+                  "count": 48,
+                  "item": "chemlib:calcium"
+                },
+                {
+                  "count": 32,
+                  "item": "chemlib:chromium"
+                },
+                {
+                  "count": 48,
+                  "item": "chemlib:silicon"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": false
+        }
+      }
+    }
+  ]
+}

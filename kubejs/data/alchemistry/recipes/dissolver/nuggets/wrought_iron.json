@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:nuggets/wrought_iron"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 1,
+          "ingredient": {
+            "tag": "forge:nuggets/wrought_iron"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 1.0,
+              "results": [
+                {
+                  "item": "chemlib:iron"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": true
+        }
+      }
+    }
+  ]
+}

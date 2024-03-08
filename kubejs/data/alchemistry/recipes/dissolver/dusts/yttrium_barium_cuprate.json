@@ -1,0 +1,57 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:dusts/yttrium_barium_cuprate"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 13,
+          "ingredient": {
+            "tag": "forge:dusts/yttrium_barium_cuprate"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 100.0,
+              "results": [
+                {
+                  "count": 16,
+                  "item": "chemlib:yttrium"
+                },
+                {
+                  "count": 32,
+                  "item": "chemlib:barium"
+                },
+                {
+                  "count": 48,
+                  "item": "chemlib:copper"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
+                },
+                {
+                  "count": 48,
+                  "item": "chemlib:oxygen"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": false
+        }
+      }
+    }
+  ]
+}

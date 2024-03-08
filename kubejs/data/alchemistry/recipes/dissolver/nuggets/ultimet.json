@@ -1,0 +1,64 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:nuggets/tin_alloy"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 1,
+          "ingredient": {
+            "tag": "forge:nuggets/tin_alloy"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 5.0,
+              "results": [
+                {
+                  "item": "chemlib:cobalt"
+                }
+              ]
+            },
+            {
+              "probability": 2.0,
+              "results": [
+                {
+                  "item": "chemlib:chromium"
+                }
+              ]
+            },
+            {
+              "probability": 1.0,
+              "results": [
+                {
+                  "item": "chemlib:nickel"
+                }
+              ]
+            },
+            {
+              "probability": 1.0,
+              "results": [
+                {
+                  "item": "chemlib:molybdenum"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": true
+        }
+      }
+    }
+  ]
+}
