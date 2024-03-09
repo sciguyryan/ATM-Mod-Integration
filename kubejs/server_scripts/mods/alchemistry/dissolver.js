@@ -88,35 +88,4 @@ ServerEvents.recipes((event) => {
       weighted: false,
     },
   });
-
-  // NOTE - the chance for bonus barium isn't given to the gem, just to the dust.
-  event.custom({
-    type: "alchemistry:dissolver",
-    group: "alchemistry:dissolver",
-    input: {
-      count: 3,
-      ingredient: {
-        tag: "forge:gems/nether_quartz",
-      },
-    },
-    output: {
-      groups: [
-        {
-          probability: 100.0,
-          results: [
-            {
-              count: 16,
-              item: "chemlib:silicon",
-            },
-            {
-              count: 32,
-              item: "chemlib:oxygen",
-            },
-          ],
-        },
-      ],
-      rolls: 1,
-      weighted: false,
-    },
-  });
 });

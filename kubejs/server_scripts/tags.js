@@ -13,6 +13,10 @@ ServerEvents.tags("item", (event) => {
   event.add("forge:gems/special_quartz", "#forge:gems/nether_quartz")
   event.add("forge:gems/special_quartz", "#forge:gems/quartzite");
 
+  event.add("forge:dusts/graphite", "#forge:dusts/charcoal");
+  event.add("forge:dusts/graphite", "#forge:dusts/coke");
+  event.add("forge:dusts/graphite", "#forge:dusts/coal");
+
   const CHEMLIB_DUST_TAG_PAIRS = [
     ["aluminum_oxide", ["green_sapphire", "sapphire"]],
     ["antimony_trisulfide", ["stibnite"]],
