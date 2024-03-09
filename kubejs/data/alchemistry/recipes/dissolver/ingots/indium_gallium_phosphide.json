@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:ingots/indium_gallium_phosphide"
           }
         }
       ],
@@ -17,7 +17,7 @@
         "input": {
           "count": 3,
           "ingredient": {
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:ingots/indium_gallium_phosphide"
           }
         },
         "output": {
@@ -27,11 +27,15 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:magnesium"
+                  "item": "chemlib:indium"
                 },
                 {
-                  "count": 32,
-                  "item": "chemlib:aluminum"
+                  "count": 16,
+                  "item": "chemlib:gallium"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:phosphorus"
                 }
               ]
             }

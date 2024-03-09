@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/osmiridium"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 3,
+          "count": 4,
           "ingredient": {
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/osmiridium"
           }
         },
         "output": {
@@ -26,12 +26,12 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:magnesium"
+                  "count": 48,
+                  "item": "chemlib:iridium"
                 },
                 {
-                  "count": 32,
-                  "item": "chemlib:aluminum"
+                  "count": 16,
+                  "item": "chemlib:osmium"
                 }
               ]
             }

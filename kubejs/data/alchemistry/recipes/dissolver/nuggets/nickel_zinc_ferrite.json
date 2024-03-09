@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/bauxite"
+            "tag": "forge:nuggets/nickel_zinc_ferrite"
           }
         }
       ],
@@ -17,36 +17,46 @@
         "input": {
           "count": 1,
           "ingredient": {
-            "tag": "forge:dusts/bauxite"
+            "tag": "forge:nuggets/nickel_zinc_ferrite"
           }
         },
         "output": {
           "groups": [
             {
-              "probability": 66.67,
+              "probability": 1.0,
               "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:aluminum_oxide"
+                  "item": "chemlib:nickel"
                 }
               ]
             },
             {
-              "probability": 33.33,
+              "probability": 1.0,
               "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:aluminum_oxide"
-                },
+                  "item": "chemlib:zinc"
+                }
+              ]
+            },
+            {
+              "probability": 4.0,
+              "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:titanium_oxide"
+                  "item": "chemlib:iron"
+                }
+              ]
+            },
+            {
+              "probability": 8.0,
+              "results": [
+                {
+                  "item": "chemlib:oxygen"
                 }
               ]
             }
           ],
           "rolls": 1,
-          "weighted": false
+          "weighted": true
         }
       }
     }

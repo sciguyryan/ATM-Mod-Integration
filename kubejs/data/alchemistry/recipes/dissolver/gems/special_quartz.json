@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:gems/special_quartz"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 3,
+          "count": 1,
           "ingredient": {
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:gems/special_quartz"
           }
         },
         "output": {
@@ -27,11 +27,7 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:magnesium"
-                },
-                {
-                  "count": 32,
-                  "item": "chemlib:aluminum"
+                  "item": "chemlib:silicon_dioxide"
                 }
               ]
             }

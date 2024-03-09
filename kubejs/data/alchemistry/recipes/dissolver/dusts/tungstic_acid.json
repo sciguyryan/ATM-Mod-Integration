@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/tungstic_acid"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 3,
+          "count": 7,
           "ingredient": {
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/tungstic_acid"
           }
         },
         "output": {
@@ -27,11 +27,15 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:magnesium"
+                  "item": "chemlib:tungsten"
                 },
                 {
                   "count": 32,
-                  "item": "chemlib:aluminum"
+                  "item": "chemlib:hydrogen"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
                 }
               ]
             }

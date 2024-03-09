@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/nickel_zinc_ferrite"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 3,
+          "count": 14,
           "ingredient": {
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/nickel_zinc_ferrite"
           }
         },
         "output": {
@@ -27,11 +27,23 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:magnesium"
+                  "item": "chemlib:nickel"
                 },
                 {
-                  "count": 32,
-                  "item": "chemlib:aluminum"
+                  "count": 16,
+                  "item": "chemlib:zinc"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:iron"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
                 }
               ]
             }

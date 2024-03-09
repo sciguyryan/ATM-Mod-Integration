@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/gallium_arsenide"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 3,
+          "count": 2,
           "ingredient": {
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/gallium_arsenide"
           }
         },
         "output": {
@@ -27,11 +27,11 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:magnesium"
+                  "item": "chemlib:gallium"
                 },
                 {
-                  "count": 32,
-                  "item": "chemlib:aluminum"
+                  "count": 16,
+                  "item": "chemlib:arsenic"
                 }
               ]
             }

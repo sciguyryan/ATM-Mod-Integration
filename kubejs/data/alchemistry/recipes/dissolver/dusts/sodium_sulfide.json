@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/sodium_sulfide"
           }
         }
       ],
@@ -17,7 +17,7 @@
         "input": {
           "count": 3,
           "ingredient": {
-            "tag": "forge:dusts/magnalium"
+            "tag": "forge:dusts/sodium_sulfide"
           }
         },
         "output": {
@@ -26,12 +26,12 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:magnesium"
+                  "count": 32,
+                  "item": "chemlib:sodium"
                 },
                 {
-                  "count": 32,
-                  "item": "chemlib:aluminum"
+                  "count": 16,
+                  "item": "chemlib:sulfur"
                 }
               ]
             }
