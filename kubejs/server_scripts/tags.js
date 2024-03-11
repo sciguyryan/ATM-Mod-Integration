@@ -20,12 +20,14 @@ ServerEvents.tags("item", (event) => {
   const CHEMLIB_DUST_TAG_PAIRS = [
     ["aluminum_oxide", ["green_sapphire", "sapphire"]],
     ["antimony_trisulfide", ["stibnite"]],
+    ["barium_sulfate", ["barite"]],
     ["calcium_carbonate", ["calcite"]],
     ["calcium_oxide", ["quicklime"]],
     ["chromium_oxide", ["chromium_trioxide"]],
     ["copper_i_sulfide", ["chalcocite"]],
     ["iron_disulfide", ["pyrite"]],
     ["iron_oxide", ["hematite", "magnetite"]],
+    ["lead_oxide", ["massicot"]],
     ["lead_sulfide", ["galena"]],
     ["magnesium_carbonate", ["magnesite"]],
     ["manganese_oxide", ["magnesia", "pyrolusite"]],
@@ -34,6 +36,7 @@ ServerEvents.tags("item", (event) => {
     ["potassium_oxide", ["potash"]],
     ["sodium_carbonate", ["soda_ash"]],
     ["tin_oxide", ["cassiterite"]],
+    ["zinc_oxide", ["zincite"]],
     ["zinc_sulfide", ["sphalerite"]],
   ];
 

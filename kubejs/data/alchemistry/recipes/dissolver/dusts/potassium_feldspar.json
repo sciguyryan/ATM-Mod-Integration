@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/potassium_feldspar"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 11,
           "ingredient": {
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/potassium_feldspar"
           }
         },
         "output": {
@@ -27,7 +27,23 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:iron"
+                  "item": "chemlib:potassium"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:aluminum"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:silicon"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
                 }
               ]
             }

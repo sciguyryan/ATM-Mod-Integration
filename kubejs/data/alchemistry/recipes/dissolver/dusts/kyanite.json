@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/kyanite"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 8,
           "ingredient": {
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/kyanite"
           }
         },
         "output": {
@@ -26,8 +26,20 @@
               "probability": 100.0,
               "results": [
                 {
+                  "count": 32,
+                  "item": "chemlib:aluminum"
+                },
+                {
                   "count": 16,
-                  "item": "chemlib:iron"
+                  "item": "chemlib:silicon"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:oxygen"
                 }
               ]
             }

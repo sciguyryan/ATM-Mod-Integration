@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/malachite"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 10,
           "ingredient": {
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/malachite"
           }
         },
         "output": {
@@ -26,8 +26,24 @@
               "probability": 100.0,
               "results": [
                 {
+                  "count": 32,
+                  "item": "chemlib:copper"
+                },
+                {
                   "count": 16,
-                  "item": "chemlib:iron"
+                  "item": "chemlib:carbon"
+                },
+                {
+                  "count": 32,
+                  "item": "chemlib:hydrogen"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:oxygen"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:oxygen"
                 }
               ]
             }

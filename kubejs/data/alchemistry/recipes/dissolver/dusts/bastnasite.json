@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/bastnasite"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 6,
           "ingredient": {
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/bastnasite"
           }
         },
         "output": {
@@ -27,7 +27,19 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:iron"
+                  "item": "chemlib:cerium"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:carbon"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:fluorine"
+                },
+                {
+                  "count": 48,
+                  "item": "chemlib:oxygen"
                 }
               ]
             }

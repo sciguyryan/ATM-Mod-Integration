@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/arsenic_trioxide"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 5,
           "ingredient": {
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:dusts/arsenic_trioxide"
           }
         },
         "output": {
@@ -26,8 +26,12 @@
               "probability": 100.0,
               "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:iron"
+                  "count": 32,
+                  "item": "chemlib:arsenic"
+                },
+                {
+                  "count": 48,
+                  "item": "chemlib:oxygen"
                 }
               ]
             }

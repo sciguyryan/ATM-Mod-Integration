@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:nuggets/manganese_phosphide"
           }
         }
       ],
@@ -15,25 +15,32 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 2,
           "ingredient": {
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:nuggets/manganese_phosphide"
           }
         },
         "output": {
           "groups": [
             {
-              "probability": 100.0,
+              "probability": 1.0,
               "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:iron"
+                  "item": "chemlib:manganese"
+                }
+              ]
+            },
+            {
+              "probability": 1.0,
+              "results": [
+                {
+                  "item": "chemlib:phosphorus"
                 }
               ]
             }
           ],
           "rolls": 1,
-          "weighted": false
+          "weighted": true
         }
       }
     }

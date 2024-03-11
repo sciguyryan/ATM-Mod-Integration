@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:ingots/tungsten_carbide"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 2,
           "ingredient": {
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:ingots/tungsten_carbide"
           }
         },
         "output": {
@@ -27,7 +27,11 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:iron"
+                  "item": "chemlib:tungsten"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:carbon"
                 }
               ]
             }

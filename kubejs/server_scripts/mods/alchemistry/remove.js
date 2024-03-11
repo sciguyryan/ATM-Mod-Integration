@@ -1,27 +1,28 @@
 ServerEvents.recipes((event) => {
-  const removals = [
-    "redstone",
-    "redstone_block",
-    "glowstone_dust",
+  const multiRemovals = [
     "glowstone",
-    "quartz_slab",
-    "smooth_quartz_slab",
+    "glowstone_dust",
     "chiseled_quartz_block",
-    "quartz_bricks",
-    "quartz_pillar",
-    "smooth_quartz",
-    "diamond",
     "charcoal",
     "coal",
-    "obsidian",
-    "quartz",
-    "graphite",
+    "diamond",
     "dusts/bauxite",
     "dusts/cinnabar",
     "dusts/niter",
+    "ender_pearl",
+    "graphite",
+    "obsidian",
+    "quartz",
+    "quartz_bricks",
+    "quartz_pillar",
+    "quartz_slab",
+    "redstone",
+    "redstone_block",
+    "smooth_quartz",
+    "smooth_quartz_slab",
   ];
 
-  removals.forEach((removal) => {
+  multiRemovals.forEach((removal) => {
     event.remove({ id: `alchemistry:combiner/${removal}` });
     event.remove({
       id: `alchemistry:dissolver/${removal}`,
@@ -31,13 +32,14 @@ ServerEvents.recipes((event) => {
     });
   });
 
-  const regex_removals = [
+  // Removals that are specified by ID.
+  const idRemovals = [
     // These cause calculation issues that are just better avoided.
-    { id: /alchemistry:dissolver\/storage_blocks*/ },
-    { id: /alchemistry:dissolver\/ores*/ },
+    { id: /alchemistry:dissolver\/storage_blocks*/, mod: "alchemistry" },
+    { id: /alchemistry:dissolver\/ores*/, mod: "alchemistry" },
   ];
 
-  regex_removals.forEach((removal) => {
+  idRemovals.forEach((removal) => {
     event.remove(removal);
   });
 });

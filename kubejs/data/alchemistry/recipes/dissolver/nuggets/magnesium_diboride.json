@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:nuggets/magnesium_diboride"
           }
         }
       ],
@@ -17,23 +17,30 @@
         "input": {
           "count": 1,
           "ingredient": {
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:nuggets/magnesium_diboride"
           }
         },
         "output": {
           "groups": [
             {
-              "probability": 100.0,
+              "probability": 1.0,
               "results": [
                 {
-                  "count": 16,
-                  "item": "chemlib:iron"
+                  "item": "chemlib:magensium"
+                }
+              ]
+            },
+            {
+              "probability": 2.0,
+              "results": [
+                {
+                  "item": "chemlib:boron"
                 }
               ]
             }
           ],
           "rolls": 1,
-          "weighted": false
+          "weighted": true
         }
       }
     }

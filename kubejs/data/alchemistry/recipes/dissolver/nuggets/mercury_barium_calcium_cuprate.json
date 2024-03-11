@@ -1,0 +1,72 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:nuggets/mercury_barium_calcium_cuprate"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+          "count": 1,
+          "ingredient": {
+            "tag": "forge:nuggets/mercury_barium_calcium_cuprate"
+          }
+        },
+        "output": {
+          "groups": [
+            {
+              "probability": 2.0,
+              "results": [
+                {
+                  "item": "chemlib:barium"
+                }
+              ]
+            },
+            {
+              "probability": 2.0,
+              "results": [
+                {
+                  "item": "chemlib:calcium"
+                }
+              ]
+            },
+            {
+              "probability": 3.0,
+              "results": [
+                {
+                  "item": "chemlib:copper"
+                }
+              ]
+            },
+            {
+              "probability": 1.0,
+              "results": [
+                {
+                  "item": "chemlib:mercury"
+                }
+              ]
+            },
+            {
+              "probability": 8.0,
+              "results": [
+                {
+                  "item": "chemlib:oxygen"
+                }
+              ]
+            }
+          ],
+          "rolls": 1,
+          "weighted": true
+        }
+      }
+    }
+  ]
+}

@@ -7,7 +7,7 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:gems/ender_pearl"
           }
         }
       ],
@@ -15,9 +15,9 @@
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
-          "count": 1,
+          "count": 10,
           "ingredient": {
-            "tag": "forge:ingots/wrought_iron"
+            "tag": "forge:gems/ender_pearl"
           }
         },
         "output": {
@@ -27,7 +27,19 @@
               "results": [
                 {
                   "count": 16,
-                  "item": "chemlib:iron"
+                  "item": "chemlib:beryllium"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:potassium"
+                },
+                {
+                  "count": 64,
+                  "item": "chemlib:nitrogen"
+                },
+                {
+                  "count": 16,
+                  "item": "chemlib:nitrogen"
                 }
               ]
             }
